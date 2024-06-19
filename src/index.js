@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Page1 from './App/Page1';
 import reportWebVitals from './reportWebVitals';
+import Page2 from './App/Page2';
+import Page3 from './App/Page3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App>
+      <Page1 />
+      <Page2 />
+      <Page3 />
+    </App>
   </React.StrictMode>
 );
 

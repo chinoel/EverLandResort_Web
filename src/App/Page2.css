@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.Page2 {
+    position: relative; /* 추가 */
+    background: linear-gradient(to bottom, #333074, #C36456, #EAC357);
+    color: white;
+    font-size: 30px;
+    height: 74vw;
+}
+
+.tile {
+    position: absolute;
+    top: 60vw;
+    left: 50%;
+    /* 이동한 요소의 중심을 정확히 위치시키기 위해 */
+    transform: translate(-50%, -50%);
+    /* 타일의 크기를 지정 */
+    width: 100%;
+    height: 30vw;
+    /* 타일의 배경색을 지정 */
+    background: linear-gradient(to bottom, #7F6D58, #8D7B66, #998772);
+  }
+
+
+.music1 {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.tree {
+    position: absolute;
+    top: 8vw;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.evertown {
+    position: absolute;
+    top: 5vw;
+    left: 0%;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+    pointer-events: none;
+}
+
+.boos {
+    position: absolute;
+    top: 33vw;
+    left: 50vw;
+    transform: translateX(-50%);
+
+    bottom: 0;
+    z-index: 4;
+    width: 40vw;
+    pointer-events: none;
+}
+
+.boosshadow {
+    position: absolute;
+    top: 52.5vw;
+    left: 50vw;
+    transform: translateX(-50%);
+
+    bottom: 0;
+    z-index: 4;
+    width: 38vw;
+    pointer-events: none;
+}
+
+.players {
+    position: absolute;
+    top: 42vw;
+    left: 50vw;
+    transform: translateX(-50%);
+
+    bottom: 0;
+    z-index: 5;
+    width: 22vw;
+    pointer-events: none;
+}
+
+.player1 {
+    position: absolute;
+    top: 46vw;
+    left: 27vw;
+    right: 0;
+    bottom: 0;
+    width: 12vw;
+    z-index: 6;
+    pointer-events: none;
+}
+
+.player2 {
+    position: absolute;
+    top: 44vw;
+    left: 18vw;
+    right: 0;
+    bottom: 0;
+    width: 7vw;
+    z-index: 6;
+    pointer-events: none;
+}
+
+.player3 {
+    position: absolute;
+    top: 47vw;
+    right: 18vw;
+    bottom: 0;
+    width: 8vw;
+    z-index: 6;
+    pointer-events: none;
+}

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.Page3 {
+    position: relative;
+    background: #EFEBE8;
+    color: white;
+    font-size: 30px;
+    height: 70vw;
+}
+
+.timeline {
+    overflow-x: hidden;
+}
+
+.timeline ol {
+    font-size: 5px;
+    width: 100vw;
+    padding: 200px 0;
+    transition: all 1s;
+}
+
+.timeline ol li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    width: 13vw;
+    height: 3px;
+    background: #562700;
+}
+
+.timeline ol li:last-child {
+    width: 230px;
+}
+
+.timeline ol li:not(:first-child) {
+    margin-left: 1.4vw;
+}
+
+.timeline ol li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 1px);
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #F45B69;
+}
