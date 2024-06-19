@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/EverLandResort_Web/static/css/main.1a76e956.css",
+    "main.js": "/EverLandResort_Web/static/js/main.cfef3d63.js",
+    "static/js/453.245b0573.chunk.js": "/EverLandResort_Web/static/js/453.245b0573.chunk.js",
+    "static/media/evertown.png": "/EverLandResort_Web/static/media/evertown.53294a73e653602abb0c.png",
+    "static/media/tree.png": "/EverLandResort_Web/static/media/tree.2288fe83cf78a95bcbda.png",
+    "static/media/boos.png": "/EverLandResort_Web/static/media/boos.b06013ea48a34d7b3e76.png",
+    "static/media/players.png": "/EverLandResort_Web/static/media/players.7fd52deb500dfe0c1488.png",
+    "static/media/music1.png": "/EverLandResort_Web/static/media/music1.03f81e9867ca5e47f81f.png",
+    "static/media/title.png": "/EverLandResort_Web/static/media/title.625ee26aa7901d043424.png",
+    "static/media/star.png": "/EverLandResort_Web/static/media/star.862678cb464e722d285a.png",
+    "static/media/player3.png": "/EverLandResort_Web/static/media/player3.9f90a1998f94e12fcfbe.png",
+    "static/media/player1.png": "/EverLandResort_Web/static/media/player1.8b98b42a5977f4c36965.png",
+    "static/media/player2.png": "/EverLandResort_Web/static/media/player2.79e4bfb632e8f5182b9d.png",
+    "static/media/happy_btn.png": "/EverLandResort_Web/static/media/happy_btn.671819be1795b32a026f.png",
+    "index.html": "/EverLandResort_Web/index.html",
+    "main.1a76e956.css.map": "/EverLandResort_Web/static/css/main.1a76e956.css.map",
+    "main.cfef3d63.js.map": "/EverLandResort_Web/static/js/main.cfef3d63.js.map",
+    "453.245b0573.chunk.js.map": "/EverLandResort_Web/static/js/453.245b0573.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a76e956.css",
+    "static/js/main.cfef3d63.js"
+  ]
+}
