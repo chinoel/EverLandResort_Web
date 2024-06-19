@@ -6,6 +6,10 @@ import Page1 from './App/Page1';
 import reportWebVitals from './reportWebVitals';
 import Page2 from './App/Page2';
 import Page3 from './App/Page3';
+import Page4 from './App/Page4';
+import Page5 from './App/Page5';
+import Page6 from './App/Page6';
+import Page7 from './App/Page7';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +18,10 @@ root.render(
       <Page1 />
       <Page2 />
       <Page3 />
+      <Page4 />
+      <Page5 />
+      <Page6 />
+      <Page7 />
     </App>
   </React.StrictMode>
 );

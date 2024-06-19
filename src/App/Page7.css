@@ -1,0 +1,21 @@
+.Page7 {
+    position: relative;
+    background: #434343;
+    color: black;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+}
+
+.Page7 .title {
+    height: 2vw;
+    margin-left: 7vw;
+}
+
+.Page7 p {
+    color: white;
+    font-size: 0.8vw;
+    /* /* 오른쪽 정렬 */
+    margin-left: auto;
+    margin-right: 7vw;
+}

@@ -1,0 +1,101 @@
+.Page4 {
+    position: relative;
+    background: #E4D5C3;
+    color: white;
+    font-size: 30px;
+    height: 60vw;
+}
+
+.intitle {
+    padding-top: 6vw;
+    color: #562700;
+}
+
+.intitle span {
+    color: darkgreen;
+}
+
+.photo p {
+    color: #56270070;
+    font-weight: bold;
+}
+
+.photo span {
+    color: #5627007e;
+    font-weight: normal;
+}
+
+/* .photo div div에 ck가 달린건 글자 흰색으로 변환 */
+.photo div div.ck p {
+    color: #562700;
+    font-weight: bold;
+}
+
+.photo {
+    overflow: hidden;
+    padding-top: 5vw;
+    justify-content: space-between;
+}
+
+.photo .slide-container {
+    transition: transform 0.5s ease-in-out;
+}
+
+.photo div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.photo div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.photo div div img {
+    width: 31.6vw;
+    border-radius: 7%;
+}
+
+.photo div div p {
+    font-size: 1.5vw;
+    margin-top: 10px;
+    margin-left: 0vw;
+    margin-right: 0.7vw;
+}
+
+.photo div div p span {
+    font-size: 1vw;
+    margin-top: 10px;
+}
+
+.now_control {
+    margin-top: 4vw;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.2vw;
+    color: #562700;
+}
+
+.now_control .control {
+    width: 1.2vw;
+    height: 1.2vw;
+    background: #E4D5C3;
+    border-radius: 50%;
+
+    margin: 0 0.5vw;
+    /* 테두리 선 검은색 */
+    border: 0.2vw solid #562700;
+}
+
+.now_control .ck {
+    background: #562700;
+}

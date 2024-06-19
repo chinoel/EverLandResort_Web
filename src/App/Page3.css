@@ -1,55 +1,125 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    user-select: none;
-}
-
 .Page3 {
     position: relative;
     background: #EFEBE8;
     color: white;
     font-size: 30px;
-    height: 70vw;
+    height: 50vw;
 }
+
+
 
 .timeline {
     overflow-x: hidden;
+    margin-left: 13vw;
+    margin-right: 13vw;
 }
 
 .timeline ol {
-    font-size: 5px;
-    width: 100vw;
-    padding: 200px 0;
-    transition: all 1s;
+    list-style-type: none;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .timeline ol li {
     position: relative;
     display: inline-block;
     list-style-type: none;
-    width: 13vw;
-    height: 3px;
+    width: 100vw;
+    margin: 0 10px;
+}
+
+.timeline ol li div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Artist {
+    padding-top: 6vw;
+    color: #562700;
+}
+
+.Artist span{
+    font-size: 3.5vw;
+    color: darkred;
+}
+
+
+.timeline ol li div .line {
+    position: relative;
+    width: 120%;
+    height: 0.3vw;
+    background: #562700;
+    margin: 10px 0;
+}
+
+.timeline ol li div .line::before,
+.timeline ol li div .line::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.3vw;
     background: #562700;
 }
 
-.timeline ol li:last-child {
-    width: 230px;
-}
-
-.timeline ol li:not(:first-child) {
-    margin-left: 1.4vw;
-}
-
-.timeline ol li:not(:last-child)::after {
+.timeline ol li div .line::after {
     content: '';
     position: absolute;
     top: 50%;
-    left: calc(100% + 1px);
-    bottom: 0;
-    width: 12px;
-    height: 12px;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
-    background: #F45B69;
+    background: #ffffff;
+    border: 0.4vw solid darkred;
 }
+
+
+
+
+
+
+.timeline ol li div time {
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    font-size: 1.5vw;
+    color: #562700;
+}
+
+.timeline ol li div name {
+    margin-top: 1.5vw;
+    font-size: 1.2vw;
+    color: #fff;
+    background: #562700;
+    padding: 0.6vw 2.3vw;
+    border-radius: 2vw;
+    position: relative;
+}
+
+.timeline ol li div name::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #562700;
+}
+
+.timeline ol li div img {
+    width: 12vw;
+    height: 12vw;
+
+    border-radius: 50%;
+    border: 2px solid #fff;
+
+    object-fit: cover;
+}
+
+
+
+

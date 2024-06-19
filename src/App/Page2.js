@@ -16,7 +16,7 @@ function Page2() {
     }, []);
 
     return (
-        <div className="Page2">
+        <div className="Page2" id='Page2'>
             <div className={ (scrollY > 1000 ) ? 'show' : 'hide'}>
                 
             <img src={i.music1} alt="music1" className="music1" />

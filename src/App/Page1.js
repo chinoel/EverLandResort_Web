@@ -28,10 +28,10 @@ function Page1() {
                     <img src={i.everland} alt='everland' className='everland'></img>
                     <img src={i.happy} alt='happy' className='happy'></img>
                     <ul className='top_bar'>
-                        <li><a href="https://example.com/artist1">ARTIST</a></li>
-                        <li><a href="https://example.com/artist2">PHOTO ZONE</a></li>
-                        <li><a href="https://example.com/artist3">WORLD BBQ</a></li>
-                        <li><a href="https://example.com/artist4">EVENT</a></li>
+                        <li><a href="#Page3">ARTIST</a></li>
+                        <li><a href="#Page4">PHOTO ZONE</a></li>
+                        <li><a href="#Page5">WORLD BBQ</a></li>
+                        <li><a href="#Page6">EVENT</a></li>
                     </ul>
                 </header>
 
