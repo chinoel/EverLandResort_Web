@@ -22,7 +22,7 @@ function Page3() {
     return (
         <div className='Page3' id='Page3'>
             <div className={(scrollY > 0.35) ? 'show' : 'hide'}>
-                <img src={i.music} alt='유튜브와 인스타그램' className='music'></img>
+                <img src={i.music} alt='music' className='music'></img>
                 <div className='Artist'>
                     <h6>당신의 청춘 마이크</h6>
                     <h3><span className='page3_artist_title'>ARTIST</span> LINE-UP</h3>

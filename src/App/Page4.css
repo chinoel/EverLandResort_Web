@@ -2,16 +2,17 @@
     position: relative;
     background: #E4D5C3;
     color: white;
-    font-size: 30px;
     height: 60vw;
 }
 
 .intitle {
     padding-top: 6vw;
     color: #562700;
+    font-size: 2vw;
 }
 
 .intitle span {
+    font-size: 3vw;
     color: darkgreen;
 }
 
