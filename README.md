@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# React Practice Project
+This project design was created with permission from the designer who participated in the 'contest'.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+## Check the completed work
+[Link](https://chinoel.github.io/EverLandResort_Web/)
+
+Although it is React-based, it is a design that can be checked in preview because it is not applied to the server.
+
+
+
 
 ## Available Scripts
 
