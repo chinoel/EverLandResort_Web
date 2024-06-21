@@ -145,9 +145,8 @@ function Page4() {
                         &gt;
                     </div>
                 </div>
-
-
             </div>
+            <img src={i.leaves1} className='leaves1' alt='leaves'></img>
         </div>
     );
 }

@@ -126,3 +126,46 @@
     z-index: 6;
     pointer-events: none;
 }
+
+.ytandInstar {
+    position: absolute;
+    bottom: 5vw;
+    width: 12vw;
+    z-index: 6;
+    left: 46vw;
+    pointer-events: none;
+
+}
+
+.noned {
+    transform: scale(0);
+}
+
+.fire {
+    transform: scale(1);
+    transition: transform 0.4s;
+}
+
+#fire1 {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 25vw;
+    height: 6vw;
+}
+
+#fire2 {
+    position: absolute;
+    pointer-events: none;
+    top: 2v1;
+    right: 29vw;
+    height: 12vw;
+}
+
+#fire3 {
+    position: absolute;
+    pointer-events: none;
+    top: 7vw;
+    left: 32vw;
+    height: 10vw;
+}

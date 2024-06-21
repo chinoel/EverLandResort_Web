@@ -7,8 +7,12 @@ function Page1() {
     const [scrollY, setScrollY] = useState(0);
 
     const handleScroll = () => {
-        setScrollY(window.scrollY);
-    };
+        const totalDocumentHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPosition = window.scrollY;
+        const scrollRatio = scrollPosition / totalDocumentHeight;
+
+        setScrollY(scrollRatio);
+    }
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
@@ -17,7 +21,7 @@ function Page1() {
 
     return (
         <div className="Page1">
-            <div className={ (scrollY > 200 ) ? 'hide' : 'show'}>
+            <div className={ (scrollY > 0.16 ) ? 'hide' : 'show'}>
 
                 <img src={i.starImage} alt="star" className="star" />
                 <img src={i.cloud1} alt="cloud1" className="cloud1" />

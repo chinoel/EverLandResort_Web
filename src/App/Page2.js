@@ -7,8 +7,12 @@ function Page2() {
     const [scrollY, setScrollY] = useState(0);
 
     const handleScroll = () => {
-        setScrollY(window.scrollY);
-    };
+        const totalDocumentHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPosition = window.scrollY;
+        const scrollRatio = scrollPosition / totalDocumentHeight;
+
+        setScrollY(scrollRatio);
+    }
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
@@ -17,7 +21,12 @@ function Page2() {
 
     return (
         <div className="Page2" id='Page2'>
-            <div className={ (scrollY > 1000 ) ? 'show' : 'hide'}>
+
+            <img src={i.fire1} alt='fire1' className={ (scrollY > 0.13 ) ? 'fire' : 'noned'} id='fire1'></img>
+            <img src={i.fire2} alt='fire2' className={ (scrollY > 0.134 ) ? 'fire' : 'noned'} id='fire2'></img>
+            <img src={i.fire3} alt='fire3' className={ (scrollY > 0.138 ) ? 'fire' : 'noned'} id='fire3'></img>
+
+            <div className={ (scrollY > 0.14 ) ? 'show' : 'hide'}>
                 
             <img src={i.music1} alt="music1" className="music1" />
             <img src={i.tree} alt="tree" className="tree" />
@@ -29,6 +38,7 @@ function Page2() {
             <img src={i.player2} alt="player2" className="player2" />
             <img src={i.player3} alt="player3" className="player3" />
             <img src={i.players} alt="players" className="players" />
+            <img src={i.ytandInstar} alt="ytandInstar" className="ytandInstar" />
 
             <div class="tile"></div>
 

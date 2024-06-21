@@ -7,6 +7,17 @@
 }
 
 
+.music {
+    position: absolute;
+    top: 6vw;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    width: 46vw;
+    z-index: 1;
+    pointer-events: none;
+}
+
 
 .timeline {
     overflow-x: hidden;

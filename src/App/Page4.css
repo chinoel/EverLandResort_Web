@@ -99,3 +99,12 @@
 .now_control .ck {
     background: #562700;
 }
+
+.leaves1 {
+    position: absolute;
+    top: -6vw;
+    right: 5vw;
+    z-index: 2;
+    height: 11vw;
+    pointer-events: none;
+}

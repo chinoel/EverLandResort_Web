@@ -19,12 +19,21 @@ import player2 from './player2.png';
 import player3 from './player3.png';
 import players from './players.png';
 
+import fire1 from './effect/fire1.png';
+import fire2 from './effect/fire2.png';
+import fire3 from './effect/fire3.png';
+
+import ytandInstar from './ytandInstar.png';
+
+
 // Page3
 import goldendonet from './user/goldendonet.jpg'
 import kimnarin from './user/kimnarin.jpg'
 import lackAlol from './user/lackAlol.jpg'
 import toriband from './user/toriband.jpg'
 import treo from './user/treo.jpg'
+
+import music from './music.png';
 
 
 // Page4
@@ -43,6 +52,12 @@ import bbq2 from './bbq-2.png';
 import everlandpick1 from './everlandpick1.png';
 import everlandpick2 from './everlandpick2.png';
 import everlandpick3 from './everlandpick3.png';
+
+
+// leaves
+import leaves1 from './leaves1.png';
+import leaves2 from './leaves2.png';
+import leaves3 from './leaves3.png';
 
 // 객체를 변수에 할당
 const images = {
@@ -64,12 +79,17 @@ const images = {
   player2,
   player3,
   players,
+  fire1,
+  fire2,
+  fire3,
+  ytandInstar,
 
   goldendonet,
   kimnarin,
   lackAlol,
   toriband,
   treo,
+  music,
 
   flower_ajd,
   flower_boo,
@@ -82,7 +102,11 @@ const images = {
 
   everlandpick1,
   everlandpick2,
-  everlandpick3
+  everlandpick3,
+
+  leaves1,
+  leaves2,
+  leaves3,
 };
 
 // 변수를 export

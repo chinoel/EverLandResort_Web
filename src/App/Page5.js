@@ -21,9 +21,10 @@ function Page5() {
 
     return (
         <div className='Page5' id='Page5'>
-            <div className={(scrollY > 0.45) ? 'show' : 'hide'}>
-                <img src={i.kitchentable} className='background' alt='background'></img>
+            <div className={(scrollY > 0.65) ? 'show' : 'hide'}>
+            <img src={i.leaves2} className='leaves2' alt='leaves'></img>
 
+                <img src={i.kitchentable} className='background' alt='background'></img>
                 <div className='table'>
                     <div className='title'>WORLD BBQ</div>
                     <span>RED & GRILL</span>
