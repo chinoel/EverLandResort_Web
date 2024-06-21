@@ -5,7 +5,6 @@ This project design was created with permission from the designer who participat
 
 ## Check the completed work
 [Link](https://chinoel.github.io/EverLandResort_Web/)
-
 Although it is React-based, it is a design that can be checked in preview because it is not applied to the server.
 
 
