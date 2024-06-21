@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EverLandResort_Web/static/css/main.97b6be25.css",
-    "main.js": "/EverLandResort_Web/static/js/main.6b7aa4f1.js",
+    "main.css": "/EverLandResort_Web/static/css/main.924d5aaa.css",
+    "main.js": "/EverLandResort_Web/static/js/main.d8af5b16.js",
     "static/js/453.245b0573.chunk.js": "/EverLandResort_Web/static/js/453.245b0573.chunk.js",
     "static/media/kitchentable.png": "/EverLandResort_Web/static/media/kitchentable.1e6916f9bfa65c368f0d.png",
     "static/media/poo_rose.png": "/EverLandResort_Web/static/media/poo_rose.245390763773fb1c6bad.png",
@@ -27,15 +27,18 @@
     "static/media/player3.png": "/EverLandResort_Web/static/media/player3.9f90a1998f94e12fcfbe.png",
     "static/media/player1.png": "/EverLandResort_Web/static/media/player1.8b98b42a5977f4c36965.png",
     "static/media/player2.png": "/EverLandResort_Web/static/media/player2.79e4bfb632e8f5182b9d.png",
+    "static/media/leaves1.png": "/EverLandResort_Web/static/media/leaves1.3aa917259ec1642c74b2.png",
+    "static/media/fire3.png": "/EverLandResort_Web/static/media/fire3.7db7ed76fdfd2644eb76.png",
+    "static/media/fire2.png": "/EverLandResort_Web/static/media/fire2.b60825db8b5ae4e68ead.png",
     "static/media/goldendonet.jpg": "/EverLandResort_Web/static/media/goldendonet.0edd23e976915b31d363.jpg",
     "static/media/happy_btn.png": "/EverLandResort_Web/static/media/happy_btn.671819be1795b32a026f.png",
     "index.html": "/EverLandResort_Web/index.html",
-    "main.97b6be25.css.map": "/EverLandResort_Web/static/css/main.97b6be25.css.map",
-    "main.6b7aa4f1.js.map": "/EverLandResort_Web/static/js/main.6b7aa4f1.js.map",
+    "main.924d5aaa.css.map": "/EverLandResort_Web/static/css/main.924d5aaa.css.map",
+    "main.d8af5b16.js.map": "/EverLandResort_Web/static/js/main.d8af5b16.js.map",
     "453.245b0573.chunk.js.map": "/EverLandResort_Web/static/js/453.245b0573.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97b6be25.css",
-    "static/js/main.6b7aa4f1.js"
+    "static/css/main.924d5aaa.css",
+    "static/js/main.d8af5b16.js"
   ]
 }
